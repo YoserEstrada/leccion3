@@ -12,7 +12,7 @@ class Controller{
        try {
         //se intenta establecer una conexion con los datos de conexion
          await mongoose.connect(
-                    "mongodb+srv://kikret:7x7e9l1a@cluster0-9ek42.mongodb.net/myMusicDB?retryWrites=true",
+                    "mongodb+srv://isandy9310:93102103201@cluster0-d3hfy.mongodb.net/problemalectoescritura?retryWrites=true",
                     { useNewUrlParser: true }
                 );
             //en caso de esablecer la conexion, se muestra en consola este mensaje
